@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=7.0.0",
+        "slim/slim": "^3.1",
+        "slim/http-cache": "^0.3.0",
+        "monolog/monolog": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/src"
+        }
+    }
+}
